@@ -1,0 +1,16 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "debug.onTaskErrors": "showErrors",
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["d"], "after": ["\"", "_", "d"] },
+    { "before": ["D"], "after": ["\"", "_", "D"] },
+    { "before": ["x"], "after": ["\"", "_", "x"] }
+  ],
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false
+  }
+}
